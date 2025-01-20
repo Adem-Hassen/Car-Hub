@@ -1,0 +1,37 @@
+/* Pagination container styling */
+.pagination {
+    margin-top: 20px;
+  }
+  
+  /* Customize active page */
+  .pagination .page-item.active .page-link {
+    background-color: #d18726; /* Customize background color */
+    border-color: #d18726; /* Match border color to background */
+    color: #fff; /* Customize text color */
+  }
+  
+  /* Customize page link on hover */
+  .pagination .page-item:hover .page-link {
+    background-color: #d18726;
+    color: #fff; 
+  }
+  
+ 
+  .pagination .page-item .page-link {
+    background-color: #f0ecec; 
+    color: #000000; 
+    border: 1px solid #f0ecec; 
+  }
+  
+  
+  .pagination .page-item .page-link:hover {
+    background-color: #f0ecec; 
+    color: #495057; 
+  }
+  
+
+  .pagination .page-item:first-child .page-link,
+  .pagination .page-item:last-child .page-link {
+    border-radius: 0.25rem; /* Rounded borders */
+  }
+  
