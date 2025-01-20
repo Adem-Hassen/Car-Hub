@@ -1,0 +1,24 @@
+/* Change the filled track color */
+.rc-slider-track {
+    background-color: #d18726 !important; /* Blue */
+    height: 8px;
+    border-radius: 5px;
+  }
+  
+  /* Change the handle color */
+  .rc-slider-handle {
+    border: 2px solid #d18726 !important; /* Blue */
+    background-color: #ffffff !important;
+    width: 18px;
+    height: 18px;
+    margin-top: -6px;
+    box-shadow: none;
+  }
+  
+  /* Change the unfilled track color */
+  .rc-slider-rail {
+    background-color: #d9d9d9 !important; /* Light Grey */
+    height: 8px;
+    border-radius: 5px;
+  }
+  
